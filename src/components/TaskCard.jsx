@@ -25,10 +25,10 @@ function TaskCard({task}) {
     <div>
       <Card sx={{ minWidth: 275 ,minHeight:180}} style={{background:'black',color:'white',display:'flex',justifyContent:'space-between',flexDirection:'column'}}>
       <CardContent>
-        <Typography sx={{ fontSize: 20,fontWeight:'bold' }}  className='text-center' gutterBottom>
+        <Typography sx={{ fontSize: 22,fontWeight:'bold' }}  className='text-center' gutterBottom>
           {task?.taskName}
         </Typography>
-        <Typography variant="body2">
+        <Typography className='task-notes'style={{fontSize:'16px'}}  variant="body2">
           {task?.taskNotes}
         </Typography>
       </CardContent>

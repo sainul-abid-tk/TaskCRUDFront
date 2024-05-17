@@ -48,7 +48,7 @@ function Add() {
   }
   return (
     <div>
-      <AddCircleIcon onClick={handleOpen} fontSize='large' className='text-green-500 cursor-pointer'/>
+      <AddCircleIcon onClick={handleOpen} fontSize='large'  className='text-green-500 cursor-pointer'/>
       <Modal
         open={open}
         onClose={handleClose}

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.task-notes {
+    word-wrap: break-word; /* Ensures text wraps within the card */
+    white-space: pre-wrap; /* Preserves whitespace and wraps text */
+  }
